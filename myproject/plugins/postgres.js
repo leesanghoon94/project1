@@ -8,7 +8,7 @@ const {
     DATABASE_HOST,
     DATABASE_NAME
  } = process.env
-
+ 
 module.exports = fp(async function (fastify, opts) {
     fastify.register(require('@fastify/postgres'), {
         connectionString: 
