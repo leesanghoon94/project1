@@ -28,7 +28,7 @@ module.exports = async function (fastify, opts) {
         const client = await fastify.pg.connect();
         const { rows } = await client.query(`DELETE FROM registration WHERE id='${request.params.id}'`);
         client.release();
-        return rows;
+        reply.code(200).send("Delete complete")
         })
 }
    
