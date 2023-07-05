@@ -1,22 +1,17 @@
 # LMS(학습 관리 시스템)
 
-학생들이 강의를 확인, 수강신청하고 교수들이 새로운 강의를 개설하는 어플리케이션 구현해보았습니다.
+
+
+학생들이 강의를 확인, 수강신청하고 교수들이 새로운 강의를 개설하는 앱 기능구현만 해보았습니다.
 
 ---
-# How To Use
-배포하지 않고 기능만 구현해보았습니다.
-
----
-# Tech Stack
+## 아키텍처
 ![Fastify](https://img.shields.io/badge/Fastify-blue?style=round-square&logo=fastify&logoColor=white&logoSvg=1)![Nginx](https://img.shields.io/badge/Nginx-green?style=round-squarefor-the-badge&logo=nginx&logoColor=white&logoSvg=1 )
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-orange?style=round-squarefor-the-badge&logo=postgresql&logoColor=white&logoSvg=1)
 
+![Alt text](Untitled.jpg)
 
----
-# system Architecture
-![image](https://user-images.githubusercontent.com/126463472/230109093-dc9e2111-7abd-4822-9bc6-254b6e55cf0d.png)
 
----
 # ERD
 ![image](https://user-images.githubusercontent.com/126463472/230093915-9da9d9ea-6323-49e1-934f-e571d68a5f54.png)
 
